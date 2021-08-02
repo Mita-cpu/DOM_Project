@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*background-image:url('images/res.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+  }
+  .nav-bar{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 70px;
+	width:100%;
+	background:grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bolder;
+	
+	
+  }
+  .nav-bar ul{
+	list-style: none;
+	
+	position: relative;
+  }
+  .nav-bar ul li{
+	display:inline-block;
+	width: 120px; 
+	padding: 5px 15px;
+    text-align: center; 
+  
+	position: relative;
+  }
+img {
+      width:300px;
+      height:300px;
+  }
+.section {
+    background-image: url('images/cup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+
+}
+  
+  
