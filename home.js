@@ -1,4 +1,4 @@
-const Home = (() => {
+ export const Home = (() => {
 
 
 const slideContainer=document.createElement('div');
@@ -25,6 +25,7 @@ text2.classList.add('text');
 text2.textContent='Our Mouth Watering Cakes Now Available Online';
 
 
+
 const pictureSlides3=document.createElement('div');
 pictureSlides3.classList.add('pictureslides');
 let img3=document.createElement('img');
@@ -48,5 +49,5 @@ slideContainer.appendChild(pictureSlides);
 
 document.body.appendChild(slideContainer)
 
-return 
+return slideContainer;
 }) ();
