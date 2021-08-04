@@ -19,23 +19,25 @@ const pictureSlides2=document.createElement('div');
 pictureSlides2.classList.add('pictureslides');
 let img2=document.createElement('img');
 img2.classList.add('slide')
-img2.src='images/img2.jpg';
+img2.src='images/s1.jpg';
 let text2=document.createElement('p');
 text2.classList.add('text');
 text2.textContent='Our Mouth Watering Cakes Now Available Online';
-
+const orderButton=document.createElement('p');
+orderButton.classList.add('shopnow')
+orderButton.textContent='SHOP NOW'
 
 
 const pictureSlides3=document.createElement('div');
 pictureSlides3.classList.add('pictureslides');
 let img3=document.createElement('img');
 img3.classList.add('slide');
-img3.src='images/img3.jpg';
+img3.src='images/cup.jpg';
 let text3=document.createElement('p');
 text3.classList.add('text');
 text3.textContent='Birthday Cakes, Baby Shower Cakes, Wedding Cakes, Cupcakes And More!';
 
-
+pictureSlides2.appendChild(orderButton)
 pictureSlides3.appendChild(img3);
 pictureSlides2.appendChild(img2);
 pictureSlides.appendChild(img1);

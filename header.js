@@ -4,7 +4,7 @@ const navBar=document.createElement('div');
 navBar.classList.add('nav-bar');
 const logo=document.createElement('p');
 logo.classList.add('logo');
-logo.textContent='YourDevineFood';
+logo.textContent='YourDevineCakes';
 
 const navOrder = document.createElement('ul');
 const homeTab = document.createElement('li');
