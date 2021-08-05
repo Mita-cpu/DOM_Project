@@ -1,19 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    /*background-image:url('images/res.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
+    background-color: lightpink;
+    
   }
+  /*Navigation bar styling*/
   .nav-bar{
 	position: fixed;
 	top:0;
 	left:0;
 	height: 70px;
 	width:100%;
-	background:lightpink;
-  opacity: 0.6;
+	background:rgb(206, 58, 80);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -32,11 +30,7 @@ body {
   cursor: pointer;
   }
 
-  .logo {
-    font-weight: bolder;
-    font-size: 25px;
-    color:darkblue;
-  }
+  
   .nav-bar ul{
 	list-style: none;
 	
@@ -50,7 +44,13 @@ body {
   
 	position: relative;
   }
-  
+  /*logo styling*/
+  .logo {
+    font-weight: bolder;
+    font-size: 25px;
+    color:darkblue;
+  }
+ /* slideshow styling */
 .container {
     width:100%;
     height:100vh;
@@ -78,10 +78,21 @@ body {
   height: 100%;
   object-fit: cover;
 }
+@keyframes slideshow {
+  25%{
+    opacity: 1;
+  }
+  40%{
+    opacity:0.1;
+ 
+}
+  
+}
+/*text content styling*/
 .text{
   width: 30%;
  
-  color:rgb(145, 19, 40);
+  color:rgb(236, 104, 126);
   border: 10px solid white;
   position:absolute;
   top:25%;
@@ -97,6 +108,7 @@ body {
   font-weight: bold;
 
 }
+/*shop now button styling*/
 .shopnow{
   position: absolute;
   top:82%;
@@ -107,20 +119,10 @@ body {
   padding:10px;
   margin-right: 40px;
   background-color:deeppink;
-  opacity: 0.6;
   color: black;
   font-weight: bolder;
   border: 3px solid black;
   font-family: 'Source Code Pro', monospace;
   
 }
-@keyframes slideshow {
-  25%{
-    opacity: 1;
-  }
-  40%{
-    opacity:0.1;
- 
-}
-  
-}
+

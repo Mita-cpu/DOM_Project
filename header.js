@@ -11,7 +11,7 @@ const homeTab = document.createElement('li');
 const menuTab = document.createElement('li');
 
 homeTab.textContent = 'Home';
-menuTab.textContent = 'Menu';
+menuTab.textContent = 'OurCakes';
 
 navOrder.appendChild(homeTab);
 navOrder.appendChild(menuTab);
