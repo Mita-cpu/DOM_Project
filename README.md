@@ -4,7 +4,7 @@
 1. Using the DOM Manipulation to manipulate HTML elements in JavaScript.
 2. Using Modules to import and export from the main Javascript file
 
-> Live demo [_here_](https://mita-cpu.github.io/DOM_Project/).
+> Live demo [_here_](https://raw.githack.com/Mita-cpu/DOM_Project/master/practice.html).
 
 ## Table of Contents
 * [Technologies Used](#Built-with)
