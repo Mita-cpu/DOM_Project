@@ -22,8 +22,8 @@
 - ES6 and CSS3
 
 ## Screenshots
-![Example screenshot](./img/screen1.png)
-[Example screenshot](./img/screen2.png)
+![Example screenshot](images/screen1.png)
+[Example screenshot](images/screen2.png)
 
 
 
@@ -53,7 +53,7 @@ To do:
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@Mita_Raboya](https://www.twitter.com/Mita-cpu) - feel free to contact me!
 
 
 <!-- Optional -->
