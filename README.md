@@ -1,10 +1,10 @@
 # YouDevineCakes Online store page
-> The Online Cake Store called Your Devine Cakes is a  project demonstrates the Author's understanding of JavaScript DOM Manipulation, Modules and  ES6 concepts  by implementing the following requirements of the project:
+> The Online Cake Store called Your Devine Cakes is a  project that demonstrates the Author's understanding of JavaScript DOM Manipulation, Modules and  ES6 concepts  by implementing the following requirements of the project:
 
 1. Using the DOM Manipulation to manipulate HTML elements in JavaScript.
 2. Using Modules to import and export from the main Javascript file
 
-> Live demo [_here_](https://www.example.com).
+> Live demo [_here_](https://mita-cpu.github.io/DOM_Project/).
 
 ## Table of Contents
 * [Technologies Used](#Built-with)
