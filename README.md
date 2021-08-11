@@ -34,7 +34,6 @@ To clone the repo to your local repository. Follow this steps
 -Open practice.html js in your preferred browser.
 ## Authors
 - Mita Raboya
-- Boipelo Magano
 ## Project Status
 Project is: _in progress_ 
 
